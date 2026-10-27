@@ -1,0 +1,55 @@
+{
+  "documents": [
+    {
+      "id": "map",
+      "text": "Nara creó el mapa de Bruma. El mapa muestra el faro y el bosque."
+    },
+    {
+      "id": "dodge",
+      "text": "La esquiva permite evitar ataques y consume veinte puntos de resistencia."
+    },
+    {
+      "id": "shield",
+      "text": "El escudo bloquea ataques frontales y consume resistencia al bloquear."
+    },
+    {
+      "id": "keys",
+      "text": "La llave azul abre la puerta azul del archivo."
+    },
+    {
+      "id": "music",
+      "text": "La música del puerto utiliza campanas y percusión suave."
+    }
+  ],
+  "queries": [
+    {
+      "id": "q-map",
+      "text": "¿Quién creó el mapa de Bruma?",
+      "relevant": [
+        "map"
+      ]
+    },
+    {
+      "id": "q-combat",
+      "text": "¿Cómo evitar ataques?",
+      "relevant": [
+        "dodge",
+        "shield"
+      ]
+    },
+    {
+      "id": "q-key",
+      "text": "¿Qué abre la puerta azul?",
+      "relevant": [
+        "keys"
+      ]
+    },
+    {
+      "id": "q-synonym",
+      "text": "¿Quién dibujó las rutas?",
+      "relevant": [
+        "map"
+      ]
+    }
+  ]
+}
