@@ -1,0 +1,15 @@
+{
+  "q-map": [
+    "map"
+  ],
+  "q-combat": [
+    "shield",
+    "dodge"
+  ],
+  "q-key": [
+    "keys"
+  ],
+  "q-synonym": [
+    "map"
+  ]
+}
